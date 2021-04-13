@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Checkout example for Bootstrap</title>
+    <title>Squirrel Tracker: Update a Squirrel Sighting</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +20,8 @@
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2699232169,2551735498&fm=26&gp=0.jpg" alt="" width="72" height="72">
-        <h1>Add a Squirrel Sight</h1>
-        <p class="lead">Please fill out the following information to share a squirrel sighting with us!</p>
+        <h1>Update a Squirrel Sighting</h1>
+        <p class="lead">Please fill out the following form to update a squirrel sighting!</p>
       </div>
       <div class="row">
         <br>
@@ -29,11 +29,11 @@
         {% csrf_token %}
         {{form.as_p}}
           <br>
-          <p>Thanks for sharing! <img src="https://image.flaticon.com/icons/svg/1140/1140163.svg" style="width:30px" class="rounded" alt="..." ></p>
+          <p>Thanks for sharing! <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2699232169,2551735498&fm=26&gp=0.jpg" style="width:30px" class="rounded" alt="..." ></p>
           <input type="submit" name="add">
-			    <br>
+	  <br>
         </form>
-		    <br>
+	<br>
       </div>
     </div>
 
