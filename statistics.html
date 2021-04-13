@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Squirrel Tracker: Statistics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.3/examples/checkout/form-validation.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <img class="d-block mx-auto mb-4" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2699232169,2551735498&fm=26&gp=0.jpg" alt="" width="72" height="72">
+      <h1 class="display-4">Statistics Overview</h1>
+      <p class="lead">Following are the general statistics about the squirrel sightings.</p>
+    </div>
+
+    <div class="container">
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Total</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">{{ total_count }}</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>The total number of squirrels registered so far.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Adult Rate</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">{{ adult_rate }}</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Percentage of adult squirrels spotted.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Friendliness</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">{{ friendliness }}</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Percentage of squirrels that approaches human among all squirrels whose reaction to human w
+as registered.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>
